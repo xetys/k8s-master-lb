@@ -1,0 +1,1 @@
+server 1.1.1.1:6443 weight=5 max_fails=1 fail_timeout=5s; server 2.2.2.2:6443 weight=5 max_fails=1 fail_timeout=5s;
